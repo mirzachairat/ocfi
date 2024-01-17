@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Anggaran Indonesia</title>
+    <title>OCFI</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
   
@@ -43,7 +43,7 @@
       </section>
     @include('component.header')
     @yield('content')
-
+    @include('component.footer')    
      <!-- Vendor JS Files -->
   <script src="{{asset('assets/vendor/purecounter/purecounter_vanilla.js')}}"></script>
   <script src="{{asset('assets/vendor/aos/aos.js')}}"></script>

@@ -11,6 +11,9 @@ class ProfileController extends Controller
         return view('pages.profile');
     }
     public function konsorsium_ibc(){
-        return view('page.profile_ibc');
+        return view('pages.profile_ibc');
+    }
+    public function media_link(){
+        return view('pages.profile_medialink');
     }
 }

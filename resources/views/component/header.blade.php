@@ -15,8 +15,8 @@
               <li><a href="/profile">Profile</a></li>
               <li class="dropdown"><a href="#"><span>Konsorsium</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
-                  <li><a href="#">IBC</a></li>
-                  <li><a href="https://medialintaskomunitas.org">Media Link</a></li>
+                  <li><a href="/konsorsium_ibc">IBC</a></li>
+                  <li><a href="/medialink">Media Link</a></li>
                   <li><a href="#">IGI</a></li>
                 </ul>
               </li>
@@ -30,7 +30,7 @@
           </li>
           <li class="dropdown"><a href="#"><span>Berita</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Kegiatan Program</a></li>
+              <li><a href="/kegiatan">Kegiatan Program</a></li>
               <li><a href="#">Indonesia</a></li>
               <li><a href="#">International</a></li>
             </ul>

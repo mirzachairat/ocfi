@@ -6,5 +6,7 @@ use Illuminate\Http\Request;
 
 class BeritaController extends Controller
 {
-    //
+    public function kegiatan(){
+        return view('pages.kegiatan');
+    }
 }
