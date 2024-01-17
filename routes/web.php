@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\BeritaController;
+use App\Http\Controllers\TentangController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,3 +24,5 @@ Route::get('/konsorsium_ibc',[ProfileController::class, 'konsorsium_ibc'])->name
 Route::get('/medialink',[ProfileController::class, 'media_link'])->name('medialink');
 //Berita
 Route::get('/kegiatan',[BeritaController::class, 'kegiatan']);
+//Tentang
+Route::get('/team',[TentangController::class, 'team']);

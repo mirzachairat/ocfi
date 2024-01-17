@@ -20,7 +20,7 @@
                   <li><a href="#">IGI</a></li>
                 </ul>
               </li>
-              <li><a href="#">Anggota Konsorsium</a>
+              <li><a href="/team">Anggota Konsorsium</a>
                 <ul>
                   <li><a href="#">Tim</a></li>
                 </ul>  
