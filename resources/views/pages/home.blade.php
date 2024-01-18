@@ -13,9 +13,19 @@
       </div>
     </div>
   </section><!-- End Hero -->
-
+  
   <main id="main">
-
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2" style="background: #39569E; border-radius:0px 0px 0px 10px">
+          <div style="color:white; text-align:center; margin:auto">Informasi</div>
+        </div>
+        <div class="col-lg-10" style="padding-left: 0;">
+            <marquee height="50" scrollamount="14" bgcolor="#FFF7E5" title="BISA TERBACA PESANNYA" title="test" onmouseover="this.stop()" onmouseout="this.start()"  >TEKS BERJALAN DENGAN PESAN</marquee>
+        </div>
+      </div>
+    </div>
+    
     <!-- ======= Featured Services Section ======= -->
     <section id="featured-services" class="featured-services">
       <div class="container" data-aos="fade-up">
