@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class TentangController extends Controller
 {
     public function team(){
-        return view('pages.team');
+        return view('pages.anggota');
     }
 }
