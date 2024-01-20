@@ -43,20 +43,20 @@
                       </div>
                       <div class="col-lg-6">
                         <div class="card" style="width: 18rem;">
-                          <img src="..." class="card-img-top" alt="...">
+                          <img src="assets/img/kegiatan/bantuan.jpg" class="card-img-top" alt="...">
                           <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <h5 class="card-title">Bantuan Mengalir Deras, Tata Kelola Dana Perubahan Iklim Harus Akuntabel</h5>
+                            <p class="card-text">Perubahan iklim menjadi ancaman katastropik secara global. Begitu juga Indonesia sangat rentan terhadap dampak perubahan iklim seperti ....</p>
                             <a href="#" class="btn btn-primary">Go somewhere</a>
                           </div>
                         </div>
                       </div>
                       <div class="col-lg-6">
                         <div class="card" style="width: 18rem;">
-                          <img src="..." class="card-img-top" alt="...">
+                          <img src="assets/img/kegiatan/img4.jpg" class="card-img-top" alt="...">
                           <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <h5 class="card-title">OCFI Bersama Bappeda Provinsi Jambi Perkuat Implementasi Program Bio-Carbon Fund Jambi</h5>
+                            <p class="card-text">Jambi – Open Climate Change Financing in Indonesia (OCFI), konsorsium organisasi masyarakat sipil terdiri dari Medialink, Indonesia Government Institute (IGI) dan Indonesia Budget Center (IBC) bekerjasama ...</p>
                             <a href="#" class="btn btn-primary">Go somewhere</a>
                           </div>
                         </div>
@@ -555,7 +555,7 @@
             <div class="info-box  mb-4">
               <i class="bx bx-envelope"></i>
               <h3>Email Us</h3>
-              <p>admin@anggaranindonesia.org</p>
+              <p>admin@ocfi.or.id</p>
             </div>
           </div>
 
@@ -563,7 +563,7 @@
             <div class="info-box  mb-4">
               <i class="bx bx-phone-call"></i>
               <h3>Call Us</h3>
-              <p>021-12345789</p>
+              <p>021-8308181</p>
             </div>
           </div>
 
@@ -572,7 +572,7 @@
         <div class="row" data-aos="fade-up" data-aos-delay="100">
 
           <div class="col-lg-6 ">
-            <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.0327694591865!2d106.8419133147693!3d-6.259413895469303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f39a53cb6dad%3A0xcc924438042caf5b!2sSekretariat%20Indonesia%20Budget%20Center%20(IBC)!5e0!3m2!1sid!2sid!4v1674710783238!5m2!1sid!2sid" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
+            <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed/v1/place?q=Jl.+Tebet+Timur+Dalam+VIII+V+No.21,+RT.6/RW.9&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
           </div>
 
           <div class="col-lg-6">

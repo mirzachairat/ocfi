@@ -22,11 +22,11 @@
           <div class="col-lg-4 col-md-6 footer-contact">
             <h3>OCFI<span>.</span></h3>
             <p>
-              Sekretariat Indonesia Budget Center (IBC)
-              Jl. Kalibata Timur II No.17, RT.2/RW.8, Kalibata, Kec. Pancoran, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12740
+              Jl. Tebet Timur Dalam 8V No. 21 Tebet
+              Jakarta Indonesia 12820
               <br>
-              <strong>Phone:</strong> 021 12345789<br>
-              <strong>Email:</strong> admin@anggaranindonesia.com<br>
+              <strong>Phone:</strong>021-8308181<br>
+              <strong>Email:</strong> admin@ocfi.or.id<br>
             </p>
           </div>
 
