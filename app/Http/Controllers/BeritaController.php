@@ -9,4 +9,7 @@ class BeritaController extends Controller
     public function kegiatan(){
         return view('pages.kegiatan');
     }
+    public function detail_kegiatan(){
+        
+    }
 }
