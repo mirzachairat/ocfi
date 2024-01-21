@@ -17,8 +17,8 @@ return new class extends Migration
             $table->id();
             $table->integer('catergory_id');
             $table->string('article_name');
-            $table->longblob('img_title');
-            $table->longblob('img_content');
+            $table->blob('img_title');
+            $table->blob('img_content');
             $table->string('content');
             $table->string('data_source');
             $table->string('tags');
