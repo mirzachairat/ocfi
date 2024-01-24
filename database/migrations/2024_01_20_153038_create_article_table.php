@@ -18,11 +18,9 @@ return new class extends Migration
             $table->integer('catergory_id');
             $table->string('article_name');
             $table->string('img_title');
-            $table->string('img_content');
             $table->string('content');
-            $table->string('data_source');
-            $table->string('tags');
-            $table->datetime('created_by');
+            $table->binary('data_source');
+            $table->string('created_by');
             $table->integer('author_id');
             $table->timestamps(true);
         });

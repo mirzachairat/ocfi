@@ -3,19 +3,22 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\User;
 
 class AdminController extends Controller
 {
     public function index(){
         return view('layout.admin');
     }
+
     public function usertable(){
-        return view('pages.backend.user');
+        $user = User::get();
+        return view('backend.user',compact('user'));
     }
-    public function articletable(){
-        return view('pages.backend.article');
-    }
-    public function categorytable(){
-        return view('pages.backend.category');
+
+    public function deleteuser($id){
+        $user = User::find($id);
+        $user->delete();
+        return redirect()->route('usertable')->with('success', 'User deleted successfully');
     }
 }

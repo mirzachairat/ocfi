@@ -41,26 +41,20 @@
                           <h4 class="m-0 text-uppercase font-weight-bold">Lates News</h4>
                         </div>
                       </div>
+                      @foreach ($datakegiatan as $item)
                       <div class="col-lg-6">
-                        <div class="card" style="width: 18rem;">
-                          <img src="assets/img/kegiatan/bantuan.jpg" class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Bantuan Mengalir Deras, Tata Kelola Dana Perubahan Iklim Harus Akuntabel</h5>
-                            <p class="card-text">Perubahan iklim menjadi ancaman katastropik secara global. Begitu juga Indonesia sangat rentan terhadap dampak perubahan iklim seperti ....</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                          <div class="card" style="width: 18rem;">
+                            <img src="data:image/jpeg;base64,{{$item->data_source}}" width="100%" height="auto" style="display: block" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">{{$item->img_title}}</h5>
+                              <p class="card-text">{!! $item->content !!}</p>
+                              <a href="{{route('detailkegiatan', [
+                                "id"=>$item->id
+                              ])}}" class="btn btn-primary">Detail</a>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                      <div class="col-lg-6">
-                        <div class="card" style="width: 18rem;">
-                          <img src="assets/img/kegiatan/img4.jpg" class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">OCFI Bersama Bappeda Provinsi Jambi Perkuat Implementasi Program Bio-Carbon Fund Jambi</h5>
-                            <p class="card-text">Jambi – Open Climate Change Financing in Indonesia (OCFI), konsorsium organisasi masyarakat sipil terdiri dari Medialink, Indonesia Government Institute (IGI) dan Indonesia Budget Center (IBC) bekerjasama ...</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                          </div>
-                        </div>
-                      </div>
+                      @endforeach
                     </div>
                    </div>
                    <div class="col-lg-4">
