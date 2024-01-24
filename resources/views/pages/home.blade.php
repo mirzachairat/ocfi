@@ -41,20 +41,23 @@
                           <h4 class="m-0 text-uppercase font-weight-bold">Lates News</h4>
                         </div>
                       </div>
-                      @foreach ($datakegiatan as $item)
-                      <div class="col-lg-6">
-                          <div class="card" style="width: 18rem;">
-                            <img src="data:image/jpeg;base64,{{$item->data_source}}" width="100%" height="auto" style="display: block" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">{{$item->img_title}}</h5>
-                              <p class="card-text">{!! $item->content !!}</p>
-                              <a href="{{route('detailkegiatan', [
-                                "id"=>$item->id
-                              ])}}" class="btn btn-primary">Detail</a>
+
+                      <div class="row row-cols-1 row-cols-md-3 g-4">
+                        @foreach ($datakegiatan as $item)
+                          <div class="col">
+                            <div class="card">
+                              <img src="data:image/jpeg;base64,{{$item->data_source}}" width="100%" height="auto" style="display: block" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">{{$item->img_title}}</h5>
+                                <p class="card-text">{!! $item->content !!}</p>
+                                <a href="{{route('detailkegiatan', [
+                                  "id"=>$item->id
+                                ])}}" class="btn btn-primary">Detail</a>
+                              </div>
                             </div>
                           </div>
-                        </div>
-                      @endforeach
+                        @endforeach
+                      </div>
                     </div>
                    </div>
                    <div class="col-lg-4">

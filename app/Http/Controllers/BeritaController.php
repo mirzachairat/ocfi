@@ -13,7 +13,7 @@ class BeritaController extends Controller
     }
 
     public function detailkegiatan($id){
-        $datakegiatan = Article::where('id',$id)->get();
+        $datakegiatan = Article::where('id',$id)->first();
         return view('pages.kegiatans.detail_kegiatan',compact('datakegiatan'));
      }
 }

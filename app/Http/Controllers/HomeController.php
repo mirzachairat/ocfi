@@ -11,6 +11,4 @@ class HomeController extends Controller
         $datakegiatan = Article::get();
         return view('pages.home', compact('datakegiatan'));
     }
-    
-    
 }
