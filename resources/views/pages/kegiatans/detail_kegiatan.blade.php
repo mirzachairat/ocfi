@@ -32,10 +32,43 @@
                     width: 50%;" src="../assets/img/logo_ocfi.png" alt="logo">
                 </div>
                 <div class="portfolio-description">
-                    <h2>This is an example of portfolio detail</h2>
-                    <p>
-                    Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
-                    </p>
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                          <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Lates POST</h5>
+                          </div>
+                         
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                          <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">List group item heading</h5>
+                          </div>
+                          <p class="mb-1">Some placeholder content in a paragraph.</p>
+                          <small class="text-body-secondary">And some muted small print.</small>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                          <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">List group item heading</h5>
+                          </div>
+                          <p class="mb-1">Some placeholder content in a paragraph.</p>
+                          <small class="text-body-secondary">And some muted small print.</small>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                          <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">List group item heading</h5>
+                          </div>
+                          <p class="mb-1">Some placeholder content in a paragraph.</p>
+                          <small class="text-body-secondary">And some muted small print.</small>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                          <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">List group item heading</h5>
+                          </div>
+                          <p class="mb-1">Some placeholder content in a paragraph.</p>
+                          <small class="text-body-secondary">And some muted small print.</small>
+                        </a>
+                        
+                      </div>
                 </div>
                 </div>
 

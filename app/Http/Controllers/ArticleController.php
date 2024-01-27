@@ -18,7 +18,7 @@ class ArticleController extends Controller
 
     public function tambaharticle(Request $request){   
         $validatedData = $request->validate([
-            'image' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
+            'image' => 'required|image|mimes:jpeg,png,jpg,gif',
             'content' => 'required|string',
         ]);
 
