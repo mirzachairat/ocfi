@@ -27,20 +27,7 @@
     <link href="{{asset('/assets/css/style.css')}}" rel="stylesheet">
 </head>
 <body>
-    <section id="topbar" class="d-flex align-items-center">
-        <div class="container d-flex justify-content-center justify-content-md-between">
-          <div class="contact-info d-flex align-items-center">
-            <i class="bi bi-envelope d-flex align-items-center"><a href="https://mail.hostinger.com">admin@ocfi.or.id</a></i>
-            <i class="bi bi-phone d-flex align-items-center ms-4"><span>021-021-8308181</span></i>
-          </div>
-          <div class="social-links d-none d-md-flex align-items-center">
-            <a href="https://twitter.com/AwasiDanaIklim_" class="twitter"><i class="bi bi-twitter"></i></a>
-            <a href="https://www.tiktok.com/@awasidanaiklim_" class="tiktok"><i class="bi bi-tiktok"></i></a>
-            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-            <a href="https://www.instagram.com/awasidanaiklim_/" class="instagram"><i class="bi bi-instagram"></i></a>
-          </div>
-        </div>
-      </section>
+
     @include('component.header')
     @yield('content')
     @include('component.footer')    
