@@ -5,12 +5,12 @@
       {{-- <h1 class="logo"><a href="index.html"><span>.</span></a></h1> --}}
       <!-- Uncomment below if you prefer to use an image logo -->
       <a href="{{route('home')}}" class="logo"><img style="max-width: 50%;
-        max-height: 50%" src="{{asset('assets/img/logo_ocfi.png')}}" alt=""></a>
+        max-height: 50%" src="{{asset('assets/img/logo_ocfi2.png')}}" alt=""></a>
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="/">Beranda</a></li>
-          <li class="dropdown scrollto active"><a href="#"><span>Tentang</span> <i class="bi bi-chevron-down"></i></a>
+          <li><a style="color: white" class="nav-link scrollto active" href="/">Beranda</a></li>
+          <li class="dropdown scrollto active"><a href="#"><span style="color: white">Tentang</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="/profile">Profile</a></li>
               <li class="dropdown"><a href="#"><span>Konsorsium</span> <i class="bi bi-chevron-right"></i></a>
@@ -28,14 +28,14 @@
               <li><a href="#">Contact</a></li>
             </ul>
           </li>
-          <li class="dropdown"><a href="#"><span>Berita</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="#"><span style="color: white">Berita</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="/kegiatan">Kegiatan Program</a></li>
               <li><a href="#">Indonesia</a></li>
               <li><a href="#">International</a></li>
             </ul>
           </li>
-          <li class="dropdown"><a href="#"><span>Publikasi</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="#"><span style="color: white">Publikasi</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Buku/Modul/Artikel/Opini</a></li>
               <li><a href="#">Infografis</a></li>
@@ -43,14 +43,12 @@
               <li><a href="#">Video/photo</a></li>
             </ul>
           </li>
-          <li class="dropdown"><a href="#"><span>Topik</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="#"><span style="color: white">Topik</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Energi</a></li>
               <li><a href="#">Kehutanan</a></li>
             </ul>
           </li>
-          <li><a class="nav-link scrollto" href="#team">All Team</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
