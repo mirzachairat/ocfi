@@ -104,7 +104,6 @@
                               <img src="data:image/jpeg;base64,{{$item->data_source}}" width="100%" height="auto" style="display: block" class="card-img-top" alt="...">
                               <div class="card-body">
                                 <h5 class="card-title">{{$item->img_title}}</h5>
-                                <p class="card-text">{!! $item->content !!}</p>
                                 <a href="{{route('detailkegiatan', [
                                   "id"=>$item->id
                                 ])}}" class="btn btn-primary">Detail</a>
