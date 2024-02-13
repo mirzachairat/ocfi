@@ -11,7 +11,7 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
-                         <img src="assets/img/about.jpg" class="img-thumbnail" alt="">
+                         <img src="{{asset('img/ibc/logo_ibc.png')}}" class="img-thumbnail" alt="">
                     </div>
                     <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
                             <h3>Indonesia Budget Center ( IBC )</h3>

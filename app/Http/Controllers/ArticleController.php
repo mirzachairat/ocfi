@@ -4,6 +4,10 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Article;
+use App\Models\Category;
+use App\Models\Subkategori;
+use Illuminate\Support\Facades\Auth;
+
 
 class ArticleController extends Controller
 {
@@ -13,10 +17,14 @@ class ArticleController extends Controller
     }
 
     public function formarticle(){
-        return view('backend.articles.formarticle');
+        $kategori = Category::get();
+        $subkategori = Subkategori::get();
+        return view('backend.articles.formarticle',compact(['kategori','subkategori']));
     }
 
     public function tambaharticle(Request $request){   
+
+        $user = Auth::user()->name;    
         $validatedData = $request->validate([
             'image' => 'required|image|mimes:jpeg,png,jpg,gif',
             'content' => 'required|string',
@@ -32,11 +40,12 @@ class ArticleController extends Controller
         Article::create(
             [
               'catergory_id' => $request->catergory_id,  
+              'subkategori_id' => $request->subkategori_id,  
               'article_name' => $request->article_name,
               'img_title' => $request->img_title,
               'content' => $validatedData['content'],
               'author_id' => 1,
-              'created_by' => "mirza",
+              'created_by' => $user,
               'data_source' => $gambarblob
             ]
         );

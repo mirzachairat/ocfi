@@ -1,57 +1,41 @@
-<!-- ======= Header ======= -->
-<header id="header" class="d-flex align-items-center">
-    <div class="container d-flex align-items-center justify-content-between">
+<header id="header" class="header d-flex align-items-center">
 
-      {{-- <h1 class="logo"><a href="index.html"><span>.</span></a></h1> --}}
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <a href="{{route('home')}}" class="logo"><img style="max-width: 50%;
-        max-height: 50%" src="{{asset('assets/img/logo_ocfi2.png')}}" alt=""></a>
+  <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+    <a href="/" class="logo d-flex align-items-center">
+      <!-- Uncomment the line below if you also wish to use an image logo -->
+      <img src="{{asset('img/logo_ocfi.png')}}" alt="logo_ocfi" width: 50px; height:50px">
+    </a>
+    <nav id="navbar" class="navbar">
+      <ul>
+          <li><a href="/">Beranda</a></li>
+          <li class="dropdown"><a href="#"><span>Tentang</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+              <ul>
+                <li><a href="/profile">Profile</a></li>
+                <li class="dropdown"><a href="#">Konsorsium</a>
+                  <ul>
+                    <li><a href="/konsorsium_ibc">IBC</a></li>
+                    <li><a href="/medialink">Media Link</a></li>
+                    <li><a href="">IGI</a></li>
+                  </ul> 
+                </li>
+                <li><a href="#">Anggota Konsorsium</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>Berita</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+              <ul>
+                <li><a href="#">Kegiatan Program</a></li>
+                <li><a href="#">Indonesia</a></li>
+                <li><a href="#">International</a></li>
+              </ul>
+          </li>
+          <li><a href="#contact">Publikasi</a></li>
+          <li><a href="#contact">Topik</a></li>
+      </ul>
+    </nav><!-- .navbar -->
 
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a style="color: white" class="nav-link scrollto active" href="/">Beranda</a></li>
-          <li class="dropdown scrollto active"><a href="#"><span style="color: white">Tentang</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="/profile">Profile</a></li>
-              <li class="dropdown"><a href="#"><span>Konsorsium</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="/konsorsium_ibc">IBC</a></li>
-                  <li><a href="/medialink">Media Link</a></li>
-                  <li><a href="#">IGI</a></li>
-                </ul>
-              </li>
-              <li><a href="/team">Anggota Konsorsium</a>
-                <ul>
-                  <li><a href="#">Tim</a></li>
-                </ul>  
-              </li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a href="#"><span style="color: white">Berita</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="/kegiatan">Kegiatan Program</a></li>
-              <li><a href="#">Indonesia</a></li>
-              <li><a href="#">International</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a href="#"><span style="color: white">Publikasi</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Buku/Modul/Artikel/Opini</a></li>
-              <li><a href="#">Infografis</a></li>
-              <li><a href="#">Bahan</a></li>
-              <li><a href="#">Video/photo</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a href="#"><span style="color: white">Topik</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Energi</a></li>
-              <li><a href="#">Kehutanan</a></li>
-            </ul>
-          </li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+    <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+    <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
 
-    </div>
-  </header><!-- End Header -->
+  </div>
+</header><!-- End Header -->

@@ -1,15 +1,12 @@
 <!-- ======= Footer ======= -->
 <footer id="footer">
-
+    {{-- PINDAHKAN KONTAK KE HALAMAN FOOTER INI --}}
     <div class="footer-newsletter">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-6">
-            <h4>Join Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
+            <h4>Anggota Kami</h4>
+            {{-- // isi dengan LOGO OCFI IBC MEDIA LINK --}}
           </div>
         </div>
       </div>
@@ -29,7 +26,7 @@
               <strong>Email:</strong> admin@ocfi.or.id<br>
             </p>
           </div>
-
+          {{-- //ISI DENGAN MAP HAPUS MAP YANG ADA DI KONTAK --}}
           <div class="col-lg-4 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>

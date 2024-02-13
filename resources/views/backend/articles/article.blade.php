@@ -19,8 +19,9 @@
         <table class="table table-head-fixed text-nowrap">
           <thead>
             <tr>
-              <th style="width: 10px">#</th>
-              <th>ID Kategori</th>
+              <th style="width: 10px">No</th>
+              <th>Kategori ID</th>
+              <th>Sub Kategori ID</th>
               <th>Nama Artikel</th>
               <th>Title Gambar</th>
               <th>Gambar Kontent</th>
@@ -34,14 +35,15 @@
             <tr>
               <td></td>
               <td>{{$item->catergory_id}}</td>
+              <td>{{$item->subkategori_id}}</td>
               <td>{{$item->article_name}}</td>
               <td>{{$item->img_title}}</td>
               <td><img src="data:image/jpeg;base64,{{$item->data_source}}" width="100" height="80" alt="Image"></td>
               <td>{{$item->content}}</td>
               <td>{{$item->created_by}}</td>
               <td>
-                <button class="btn btn-sm btn-primary">edit</button>
-                <a href="{{route('deletearticle',['id'=>$item->id])}}"class="btn btn-sm btn-danger">Delete</a>
+                <a href="#" class="btn btn-sm btn-primary">edit</a>
+                <a href="{{route('deletearticle',['id'=>$item->id])}}" class="btn btn-sm btn-danger">Delete</a>
               </td>
             </tr>
           @endforeach

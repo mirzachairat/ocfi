@@ -19,11 +19,18 @@
                   <label for="catergory_id">Kategori</label>
                   <select class="form-control" name="catergory_id" id="catergory_id">
                     <option>==== Pilih Kategori ====</option>
-                    <option value="1">Beranda</option>
-                    <option value="2">Tentang</option>
-                    <option value="3">Berita</option>
-                    <option value="4">Publikasi</option>
-                    <option value="5">Topik</option>
+                    @foreach ($kategori as $item)
+                        <option value="{{$item->id}}">{{$item->category}}</option>
+                    @endforeach
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="subkategori_id">Sub Kategori</label>
+                  <select class="form-control" name="subkategori_id" id="subkategori_id">
+                    <option>==== Pilih Sub Kategori ====</option>
+                    @foreach ($subkategori as $item)
+                        <option value="{{$item->id}}">{{$item->namasub}}</option>
+                    @endforeach
                   </select>
                 </div>
                 <div class="form-group">

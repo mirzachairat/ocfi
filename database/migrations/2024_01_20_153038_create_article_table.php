@@ -16,6 +16,7 @@ return new class extends Migration
         Schema::create('article', function (Blueprint $table) {
             $table->id();
             $table->integer('catergory_id');
+            $table->integer('subkategori_id');
             $table->string('article_name');
             $table->string('img_title');
             $table->string('content');

@@ -55,6 +55,12 @@ Route::group(['middleware' =>'auth','auth.session'], function () {
     Route::get('/deleteArticle/{id}',[ArticleController::class, 'deletearticle'])->name('deletearticle');
     
     Route::get('/categorytable',[KategoriController::class, 'index'])->name('categorytable');
+    Route::post('/addkategori',[KategoriController::class, 'tambahkategori'])->name('tambahkategori');
+    
+    //tambah subkatori
+    Route::get('/subkategori',[KategoriController::class, 'indexsub'])->name('subcategorytable');
+    Route::post('/addsub',[KategoriController::class, 'tambahsub'])->name('tambahSubkategori');
+
 });
 
 
