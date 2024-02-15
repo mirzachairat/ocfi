@@ -46,7 +46,7 @@
                                   <div class="card-content" style="padding:10%">
                                       <h2 class="name">{{$item->article_name}}</h2>
           
-                                      <a href="" class="button">Lihat Detail</a>
+                                      <a href="{{route('detailkegiatan', ['id' => $item->id])}}" class="button">Lihat Detail</a>
                                   </div>
                               </div>
                             @endforeach  
