@@ -24,7 +24,7 @@
           </li>
           <li class="dropdown"><a href="#"><span>Berita</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
               <ul>
-                <li><a href="#">Kegiatan Program</a></li>
+                <li><a href="/kegiatan">Kegiatan Program</a></li>
                 <li><a href="#">Indonesia</a></li>
                 <li><a href="#">International</a></li>
               </ul>

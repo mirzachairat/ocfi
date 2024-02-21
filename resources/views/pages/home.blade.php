@@ -44,9 +44,11 @@
                               <div class="card swiper-slide" style=" box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
                                   <img src="data:image/jpeg;base64,{{$item->data_source}}" class="img-fluid" alt="img" style="object-fit: cover; height: 12vw">
                                   <div class="card-content" style="padding:10%">
-                                      <h2 class="name">{{$item->article_name}}</h2>
-          
-                                      <a href="{{route('detailkegiatan', ['id' => $item->id])}}" class="button">Lihat Detail</a>
+                                      <h6 class="name" style="font-size: 15px">{{$item->article_name}}</h6>
+                                      <a href="{{route('detailkegiatan', ['id' => $item->id])}}" class="btn btn-primary btn-sm">Lihat Detail</a>
+                                  </div>
+                                  <div class="card-footer">
+                                    <small class="text-body-secondary">Last updated : {{customDateFormat($item->created_at)}}</small>
                                   </div>
                               </div>
                             @endforeach  
@@ -156,6 +158,9 @@
                     <a href="" data-gallery="portfolio-gallery-app" class="glightbox"><img src="data:image/jpeg;base64,{{$item->data_source}}" class="img-fluid" alt="img" style="object-fit: cover;width:100%; height: 13vw"></a>
                     <div class="portfolio-info">
                       <h4><a href="portfolio-details.html" title="More Details">{{$item->article_name}}</a></h4>
+                      <div class="card-footer">
+                        <small class="text-body-secondary">Last updated : {{customDateFormat($item->created_at)}}</small>
+                      </div>
                     </div>
                   </div>
                 </div><!-- End Portfolio Item -->

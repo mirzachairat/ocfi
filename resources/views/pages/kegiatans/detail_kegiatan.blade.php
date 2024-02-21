@@ -8,9 +8,11 @@
                 <div class="col-lg-8">
                     <div class="info">
                         <h1>{{$datakegiatan->article_name}}</h1>
-                        <div class="portfolio-details-slider swiper">
+                        <div class="card-footer">
+                          <small class="text-body-secondary" style="font-style:italic">Last updated : {{customDateFormat($datakegiatan->created_at)}}</small>
+                        </div>
+                        <div class="portfolio-details-slider swiper" style="margin-top: 20px">
                             <div class="swiper-wrapper align-items-center">
-    
                                 <div class="swiper-slide">
                                     <img src="data:image/jpeg;base64,{{$datakegiatan->data_source}}" width="100%" height="auto" style="display: block" alt="">
                                 </div>
