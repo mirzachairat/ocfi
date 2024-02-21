@@ -157,7 +157,7 @@
                   <div class="portfolio-wrap">
                     <a href="" data-gallery="portfolio-gallery-app" class="glightbox"><img src="data:image/jpeg;base64,{{$item->data_source}}" class="img-fluid" alt="img" style="object-fit: cover;width:100%; height: 13vw"></a>
                     <div class="portfolio-info">
-                      <h4><a href="portfolio-details.html" title="More Details">{{$item->article_name}}</a></h4>
+                      <h4><a href="{{route('detailkegiatan', ['id' => $item->id])}}" title="More Details">{{$item->article_name}}</a></h4>
                       <div class="card-footer">
                         <small class="text-body-secondary">Last updated : {{customDateFormat($item->created_at)}}</small>
                       </div>
@@ -169,7 +169,7 @@
             </div><!-- End Portfolio Container -->
   
           </div>
-  
+          <p style="text-align: center; font-weight:bold; margin-top:15px; font-size:20px"><a href="/kegiatan" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">SEMUA BERITA</a></p>
         </div>
       </section><!-- End Portfolio Section -->
   
