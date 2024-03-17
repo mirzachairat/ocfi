@@ -30,7 +30,7 @@
         <div class="container">
           <div class="section-header">
             <h2>Berita Terbaru</h2>
-            <p>Informasi Terkini yang terkait pada Organisasi</p>
+            
           </div>
           <div class="card1" style="
               position: absolute;
@@ -74,8 +74,9 @@
               ">
               <i class="bi bi-layout-text-window-reverse"></i>
                 <h5 class="card-title">Berita Terkini</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-warning">Rician Berita</a>
+                <text class="card-text" style="font-size: 0,1em; color:#f5f5f5">Informasi Terkini <br> terkait pada Organisasi</text>
+                <br>
+                <a href="#" class="btn btn-warning" style="margin-top: 10pt">Rician Berita</a>
               </div>
           </div>
         </div>
@@ -145,7 +146,7 @@
   
           <div class="section-header">
             <h2>Semua Berita</h2>
-            <p>Quam sed id excepturi ccusantium dolorem ut quis dolores nisi llum nostrum enim velit qui ut et autem uia reprehenderit sunt deleniti</p>
+            <p>Informasi terkini yang tersaji yang menyangkut Organisasi OCFI</p>
           </div>
   
           <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry" data-portfolio-sort="original-order" data-aos="fade-up" data-aos-delay="100">

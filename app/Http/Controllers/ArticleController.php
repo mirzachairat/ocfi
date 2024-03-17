@@ -58,4 +58,23 @@ class ArticleController extends Controller
         $article->delete();
         return redirect()->route('articletable')->with('success', 'User deleted successfully');
     } 
+
+    public function edit($id){
+        $data_article =  Article::with('Category')->where('id',$id)->first();
+        $kategori = Category::get();
+        $subkategori = Subkategori::get();
+        return view('backend.articles.editform',compact(['data_article','kategori','subkategori']));
+    }
+
+    public function update($id){
+        Article::where('id',$id)->update([
+            'category_id' => $request->cagetory_id,
+            'subkategori_id' => $request->subkategori_id,
+            'article_name' => $request->article_name,
+            'img_title' => $request->img_title,
+            'content' => $request->content,
+            'data_source' => $request->data_source
+        ]);
+     redirect->back('/articletable');   
+    }
 }

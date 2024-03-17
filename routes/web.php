@@ -51,8 +51,10 @@ Route::group(['middleware' =>'auth','auth.session'], function () {
     //article
     Route::get('/articletable',[ArticleController::class, 'index'])->name('articletable');
     Route::get('/formarticle',[ArticleController::class, 'formarticle'])->name('formarticle');
-    Route::post('/tambaharticle',[ArticleController::class, 'tambaharticle'])->name('tambaharticle');
+    Route::get('/formarticle/edit{id}',[ArticleController::class, 'edit'])->name('editArtikel');
     Route::get('/deleteArticle/{id}',[ArticleController::class, 'deletearticle'])->name('deletearticle');
+    Route::post('/tambaharticle',[ArticleController::class, 'tambaharticle'])->name('tambaharticle');
+    Route::post('/updateArticle/{id}',[ArticleController::class, 'updatearticle'])->name('updatearticle');
     
     Route::get('/categorytable',[KategoriController::class, 'index'])->name('categorytable');
     Route::post('/addkategori',[KategoriController::class, 'tambahkategori'])->name('tambahkategori');

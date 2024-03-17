@@ -66,10 +66,9 @@
             </p>
             <div class="mapouter"><div class="gmap_canvas"><iframe width="520" height="260" id="gmap_canvas" src="https://maps.google.com/maps?q=+Jl.+Tebet+Timur+Dalam+8V+No.+21+Tebet+++++++++++++++Jakarta+Indonesia+12820&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.analarmclock.com/">online alarm clock</a><br><a href="https://online.stopwatch-timer.net/"></a><br><style>.mapouter{position: relative;text-align: right;height: 260px;width: 520px;}</style><a href="https://www.mapembed.net">map box</a><style>.gmap_canvas{overflow: hidden;background: none !important;height: 260px;width: 520px;}</style></div></div>
           <div class="social-links d-flex mt-4">
-            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            <a href="https://twitter.com/AwasiDanaIklim_" class="twitter"><i class="bi bi-twitter"></i></a>
+            <a href="https://www.instagram.com/awasidanaiklim_/" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.tiktok.com/@awasidanaiklim_" class="tiktok"><i class="bi bi-tiktok"></i></a>
           </div>
         </div>
 

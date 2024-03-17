@@ -41,7 +41,7 @@
               <td><img src="data:image/jpeg;base64,{{$item->data_source}}" width="100" height="80" alt="Image"></td>
               <td>{{$item->created_by}}</td>
               <td>
-                <a href="#" class="btn btn-sm btn-primary">edit</a>
+                <a href="{{route('editArtikel',['id'=>$item->id])}}" class="btn btn-sm btn-primary">edit</a>
                 <a href="{{route('deletearticle',['id'=>$item->id])}}" class="btn btn-sm btn-danger">Delete</a>
               </td>
             </tr>
